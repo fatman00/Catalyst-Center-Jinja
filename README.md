@@ -50,3 +50,7 @@ interface {{ iname }}
 ```
 
 ### If statement
+
+# References
+- https://ciscolearning.github.io/cisco-learning-codelabs/posts/cat-center-j2-part-1/#0
+- https://ttl255.com/jinja2-tutorial-part-2-loops-and-conditionals/
