@@ -15,7 +15,10 @@ vlan {{ vlansplit[0] }}
 ![Variables configuration](VLAN_DB_VARs.png)
 
 ## Simulation
+Running the simulation
 ![Simulation](VLAN_DB_SIM.png)
+
+**Simulation output**
 ```
 vlan 10
  name admin
