@@ -32,5 +32,5 @@ line vty 0 15
  logging synchronous
  login authentication AAA_VTY
  transport input ssh
- transport prefered none
+ transport preferred none
 ```
