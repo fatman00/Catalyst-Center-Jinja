@@ -8,9 +8,9 @@ The variables defined here can be access in system variables in Jinja Templates
 ```
 !
 {% for nameserver in __dnsserver %}
-ip name-server {{nameserver.primaryIpAddress}}
+ip name-server {{nameserver.primaryIpAddress}} {{nameserver.secondaryIpAddress}}
+ip domain name {{nameserver.domainName}}
 {% endfor %}
-ip domain name {{__dnsserver[0].domainName}}
 !
 interface GigabitEthernet0/0
  shutdown
