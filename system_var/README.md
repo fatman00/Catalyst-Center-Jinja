@@ -12,6 +12,10 @@ ip name-server {{nameserver.primaryIpAddress}} {{nameserver.secondaryIpAddress}}
 ip domain name {{nameserver.domainName}}
 {% endfor %}
 !
+{% for timeserver in __ntpserver %}
+ntp server {{timeserver}}
+{% endfor %}
+
 interface GigabitEthernet0/0
  shutdown
 !
